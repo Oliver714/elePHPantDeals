@@ -1,0 +1,17 @@
+# 运行时数据（首次访问自动生成，含 SQLite 数据库与锁文件）
+data/
+*.db
+*.db-shm
+*.db-wal
+*.lock
+
+# 本地环境与编辑器
+.env
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.log
+
+# 不要提交真实令牌：若在本地用 .env 管理，请保持被忽略
