@@ -1,5 +1,7 @@
 # elePHPantDeals
 
+[在线演示](https://stellar.wuaze.com/elephpantdeals)
+
 一个基于 [PerkRadar](https://github.com/luobinger/PerkRadar) 的**单文件优惠线索聚合器**。它读取固定的公开 RSS、Atom、JSON 和 Markdown 来源，把标题、原文链接和短摘要整理到一个本地 SQLite 数据库，再用一个网页看板帮助你搜索、筛选、收藏和标记已领。
 
 **单文件、零依赖安装**：整个应用就是一个 `index.php`，拷贝到一个支持 PHP + SQLite 的虚拟主机（或任意 PHP 服务器）即可运行，无需 Composer、无需常驻进程。刷新通过 HTTP 请求触发——可以手动点击页面上的刷新按钮，也可以用 cron 或外部定时服务定期访问刷新 URL。
